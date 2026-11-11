@@ -1,0 +1,23 @@
+{
+  "title": "Template example",
+  "subtitle": "Replace before using for a model",
+  "status": "template-not-a-buildable-design",
+  "introduction": "This one-piece diagram demonstrates source format only.",
+  "verification_notes": [
+    "No real assembly, fit check or model is described by this template."
+  ],
+  "steps": [
+    {
+      "title": "Example placement",
+      "instruction": "Replace with actual connection and orientation instructions.",
+      "check": "Replace with an observable assembly check.",
+      "parts": [
+        {
+          "code": "F1",
+          "quantity": 1
+        }
+      ],
+      "diagram": "diagrams/step-01.json"
+    }
+  ]
+}

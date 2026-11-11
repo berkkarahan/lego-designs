@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "name": "Mini Palet R1",
+  "status": "prototype-needs-verification",
+  "notes": "Extracted from original PDF pages 2-4 and 19; required counts are not owned stock. No physical build or CAD collision test.",
+  "requirements": [
+    {
+      "code": "F1",
+      "description": "5 x 7 frame",
+      "quantity": 2,
+      "part_id": "frame-5x7",
+      "match_status": "tentative",
+      "notes": "Count frame holes and confirm dimensions."
+    },
+    {
+      "code": "T1",
+      "description": "Wide track link",
+      "quantity": 36,
+      "part_id": "track-link-wide",
+      "match_status": "exact",
+      "notes": "18 per side; physical wheel engagement and track tension untested."
+    },
+    {
+      "code": "W1",
+      "description": "Large black track wheel",
+      "quantity": 4,
+      "part_id": "track-wheel-large",
+      "match_status": "exact",
+      "notes": "Two per side; actual geometry and link engagement need physical checks."
+    },
+    {
+      "code": "G8",
+      "description": "8-tooth spur gear",
+      "quantity": 8,
+      "part_id": "small-dark-gear",
+      "match_status": "tentative",
+      "notes": "Count teeth; source photo does not establish exact geometry."
+    },
+    {
+      "code": "G24",
+      "description": "24-tooth spur gear",
+      "quantity": 6,
+      "part_id": "upper-gear-light-gray-round",
+      "match_status": "tentative",
+      "notes": "Candidate only; count teeth and verify style."
+    },
+    {
+      "code": "B1",
+      "description": "Full axle bush, 1L",
+      "quantity": 10,
+      "part_id": "bush-full",
+      "match_status": "tentative",
+      "notes": "Confirm thickness and type."
+    },
+    {
+      "code": "B05",
+      "description": "Half axle bush, 0.5L",
+      "quantity": 10,
+      "part_id": "bush-half",
+      "match_status": "tentative",
+      "notes": "Confirm thickness and type."
+    },
+    {
+      "code": "A3",
+      "description": "3L axle, 24 mm",
+      "quantity": 2,
+      "part_id": null,
+      "match_status": "unresolved",
+      "notes": "Both kits contain mixed axles; no per-length stock count.",
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ]
+    },
+    {
+      "code": "A8",
+      "description": "8L axle, 64 mm",
+      "quantity": 4,
+      "part_id": null,
+      "match_status": "unresolved",
+      "notes": "Both kits contain mixed axles; no per-length stock count.",
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ]
+    },
+    {
+      "code": "A12",
+      "description": "12L axle, 96 mm",
+      "quantity": 2,
+      "part_id": null,
+      "match_status": "unresolved",
+      "notes": "Both kits contain mixed axles; no per-length stock count.",
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ]
+    },
+    {
+      "code": "P2",
+      "description": "2L friction pin",
+      "quantity": 6,
+      "part_id": null,
+      "match_status": "unresolved",
+      "notes": "Colored pin groups do not establish length/friction type.",
+      "candidates": [
+        "pin-red",
+        "pin-blue",
+        "pin-black",
+        "pin-light-gray",
+        "pin-tan",
+        "motor-pin-red"
+      ]
+    },
+    {
+      "code": "P3",
+      "description": "3L friction pin",
+      "quantity": 2,
+      "part_id": null,
+      "match_status": "unresolved",
+      "notes": "Measure pins and identify friction type.",
+      "candidates": [
+        "pin-red",
+        "pin-blue",
+        "pin-black",
+        "pin-light-gray",
+        "pin-tan"
+      ]
+    },
+    {
+      "code": "M",
+      "description": "M-type motor",
+      "quantity": 1,
+      "part_id": "motor-m-looking",
+      "match_status": "tentative",
+      "notes": "Visual estimate; motor output and mounting geometry untested."
+    },
+    {
+      "code": "L",
+      "description": "L-type motor",
+      "quantity": 1,
+      "part_id": "motor-l-looking",
+      "match_status": "tentative",
+      "notes": "Visual estimate; different motor speeds/torques may affect straight-line travel."
+    },
+    {
+      "code": "BAT",
+      "description": "Large battery box",
+      "quantity": 1,
+      "part_id": "battery-large",
+      "match_status": "tentative",
+      "notes": "Battery type, electrical output and mounting ears need inspection."
+    },
+    {
+      "code": "RX",
+      "description": "Independent two-output receiver",
+      "quantity": 1,
+      "part_id": "receiver-looking",
+      "match_status": "tentative",
+      "notes": "Test independent forward/reverse control of both motors."
+    },
+    {
+      "code": "RC",
+      "description": "Remote controller",
+      "quantity": 1,
+      "part_id": "remote-dial",
+      "match_status": "tentative",
+      "notes": "Confirm remote/receiver pairing and independent motor control."
+    }
+  ]
+}

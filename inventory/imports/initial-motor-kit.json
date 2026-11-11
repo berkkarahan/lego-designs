@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "id": "initial-motor-kit",
+  "copies": 1,
+  "sources": [
+    {
+      "id": "motor-kit-photo",
+      "label": "Motor kit product screenshot",
+      "kind": "image",
+      "path": "inventory/sources/motor-kit.png",
+      "sha256": "9749ba91b06b91db36a1c5fe302cfe6bfbd983610321665771f1eb847a9a6568"
+    }
+  ],
+  "notes": "User confirmed one complete kit. No printed counts; individual-object counts are visual estimates. Repeated product views and attached cables are not extra stock.",
+  "items": [
+    {
+      "part_id": "motor-xl-looking",
+      "part": {
+        "name": "Large cylindrical motor (XL-looking)",
+        "category": "motors",
+        "identity_status": "inferred",
+        "notes": "Type inferred from appearance; attached lead is included in motor assembly."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Upper left"
+    },
+    {
+      "part_id": "motor-l-looking",
+      "part": {
+        "name": "Medium rectangular motor (L-looking)",
+        "category": "motors",
+        "identity_status": "inferred",
+        "notes": "Type inferred from appearance; attached lead is included."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Center above receiver"
+    },
+    {
+      "part_id": "motor-m-looking",
+      "part": {
+        "name": "Slim motor (M-looking)",
+        "category": "motors",
+        "identity_status": "inferred",
+        "notes": "Type inferred from appearance; attached lead is included."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Left middle"
+    },
+    {
+      "part_id": "motor-compact",
+      "part": {
+        "name": "Compact cylindrical motor, unidentified type",
+        "category": "motors",
+        "identity_status": "inferred",
+        "notes": "Do not merge with other motors without identifying its body and output."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Center-right below receiver"
+    },
+    {
+      "part_id": "black-control-unit",
+      "part": {
+        "name": "Black rectangular motor/control unit",
+        "category": "electronics",
+        "identity_status": "inferred",
+        "notes": "Function and exact type unresolved; do not assume this is a second receiver or a working servo."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Top center"
+    },
+    {
+      "part_id": "receiver-looking",
+      "part": {
+        "name": "White unit with black dome (receiver-looking)",
+        "category": "electronics",
+        "identity_status": "inferred",
+        "notes": "Channel count, radio/IR behavior and independent motor control not verified."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Center-left below L-looking motor"
+    },
+    {
+      "part_id": "battery-compact",
+      "part": {
+        "name": "Compact studded battery box",
+        "category": "power",
+        "identity_status": "inferred",
+        "notes": "Battery type and electrical output unknown."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Top right"
+    },
+    {
+      "part_id": "battery-large",
+      "part": {
+        "name": "Large battery box with mounting ears",
+        "category": "power",
+        "identity_status": "inferred",
+        "notes": "Battery type and mounting geometry need inspection."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Right middle"
+    },
+    {
+      "part_id": "remote-dial",
+      "part": {
+        "name": "Dial remote controller assembly",
+        "category": "electronics",
+        "identity_status": "inferred",
+        "notes": "Front and open battery compartment illustrate one controller, not two units. Confirm independent two-motor control."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower left"
+    },
+    {
+      "part_id": "electrical-switch",
+      "part": {
+        "name": "Small dark-gray electrical switch/unit",
+        "category": "electronics",
+        "identity_status": "inferred",
+        "notes": "Function uncertain."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower center, above loose cables"
+    },
+    {
+      "part_id": "extension-lead",
+      "part": {
+        "name": "Loose extension lead",
+        "category": "cables",
+        "identity_status": "inferred",
+        "notes": "Separate from permanently attached motor leads."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower center, upper loop"
+    },
+    {
+      "part_id": "led-pair",
+      "part": {
+        "name": "Wired pair of lights",
+        "category": "lights",
+        "identity_status": "inferred",
+        "notes": "Counted as one wired pair, not two independently wired modules."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower center, bottom lead with two light ends"
+    },
+    {
+      "part_id": "motor-shock-yellow",
+      "part": {
+        "name": "Yellow shock absorber",
+        "category": "suspension",
+        "identity_status": "inferred",
+        "notes": "Length and compatibility with spare-kit shocks unverified; kept separate."
+      },
+      "quantity": 2,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, two yellow shocks"
+    },
+    {
+      "part_id": "motor-wheel-small",
+      "part": {
+        "name": "Small black wheel/pulley",
+        "category": "wheels",
+        "identity_status": "inferred",
+        "notes": "Diameter and mounting unknown."
+      },
+      "quantity": 4,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, vertical black wheel column"
+    },
+    {
+      "part_id": "motor-gear-yellow-small",
+      "part": {
+        "name": "Small yellow gear",
+        "category": "gears",
+        "identity_status": "inferred",
+        "notes": "Tooth counts unverified."
+      },
+      "quantity": 2,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, two small yellow gears"
+    },
+    {
+      "part_id": "motor-gear-yellow-large",
+      "part": {
+        "name": "Large yellow gear",
+        "category": "gears",
+        "identity_status": "inferred",
+        "notes": "Tooth count unverified."
+      },
+      "quantity": 1,
+      "quantity_basis": "visual_estimate",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, large yellow gear"
+    },
+    {
+      "part_id": "motor-gear-tan",
+      "part": {
+        "name": "Small tan gear assortment",
+        "category": "gears",
+        "identity_status": "inferred",
+        "notes": "Visible group retained with unknown count; tooth counts and exact grouping unclear."
+      },
+      "quantity": null,
+      "quantity_basis": "unknown",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, tan gears"
+    },
+    {
+      "part_id": "motor-pin-red",
+      "part": {
+        "name": "Short red connector assortment",
+        "category": "pins",
+        "identity_status": "inferred",
+        "notes": "Exact number, type and length not established."
+      },
+      "quantity": null,
+      "quantity_basis": "unknown",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, red connectors"
+    },
+    {
+      "part_id": "motor-axle-assortment",
+      "part": {
+        "name": "Gray/black mixed-length axle assortment",
+        "category": "axles",
+        "identity_status": "inferred",
+        "notes": "Neither per-length quantities nor exact lengths established."
+      },
+      "quantity": null,
+      "quantity_basis": "unknown",
+      "source_id": "motor-kit-photo",
+      "location": "Lower right, gray and black axles"
+    }
+  ]
+}

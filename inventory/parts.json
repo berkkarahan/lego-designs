@@ -1,0 +1,1566 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "mini-palet-pdf",
+      "label": "Mini Palet R1 original 19-page guide",
+      "kind": "pdf",
+      "path": "designs/mini-palet-r1/Mini_Palet_R1_Yapim_Plani.pdf",
+      "sha256": "65b701fa8b40ab6d07a2c8a04d610a60a52984a8288e818b8dd1077805e8fc76"
+    },
+    {
+      "id": "spare-kit-photo",
+      "label": "Spare-parts kit product screenshot",
+      "kind": "image",
+      "path": "inventory/sources/spare-parts-kit.png",
+      "sha256": "114d334047a56d604a06537eefd9bb5b920bfff05c0d4c5c2ed42557ae90c490"
+    },
+    {
+      "id": "motor-kit-photo",
+      "label": "Motor kit product screenshot",
+      "kind": "image",
+      "path": "inventory/sources/motor-kit.png",
+      "sha256": "9749ba91b06b91db36a1c5fe302cfe6bfbd983610321665771f1eb847a9a6568"
+    }
+  ],
+  "parts": [
+    {
+      "id": "large-ring-gear-black",
+      "name": "Large ring/spoked gear, black",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact tooth count and geometry need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, large gear 1",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "large-ring-gear-light-gray",
+      "name": "Large ring/spoked gear, light-gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact tooth count and geometry need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, large gear 2",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "large-ring-gear-dark-gray",
+      "name": "Large ring/spoked gear, dark-gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact tooth count and geometry need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, large gear 3",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "large-ring-gear-tan",
+      "name": "Large ring/spoked gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact tooth count and geometry need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, large gear 4",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "upper-gear-light-gray",
+      "name": "Upper small gear, light-gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Count printed; tooth count not established from photo.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, small gear 1",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "upper-gear-dark-gray",
+      "name": "Upper small gear, dark-gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Count printed; tooth count not established from photo.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, small gear 2",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "upper-gear-tan",
+      "name": "Upper small gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Count printed; tooth count not established from photo.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, small gear 3",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "upper-gear-light-gray-round",
+      "name": "Upper small gear, light-gray-round",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Count printed; tooth count not established from photo.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, small gear 4",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "flat-bevel-light-gray",
+      "name": "Flat bevel gear, light gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, right, first flat gear",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "flat-bevel-tan",
+      "name": "Flat bevel gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, right, second flat gear",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "small-bevel-tan",
+      "name": "Small bevel gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, far right, tan",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "small-bevel-dark-gray",
+      "name": "Small bevel gear, dark gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Top row, far right, gray",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lower-gear-light-gray",
+      "name": "Lower small gear, light gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, first",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lower-gear-dark-gray",
+      "name": "Lower small gear, dark gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, second",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lower-gear-tan",
+      "name": "Lower small gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, third",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "small-dark-gear",
+      "name": "Small dark-gray gear (candidate 8-tooth)",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, fourth",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "double-gear-light-gray",
+      "name": "Double/beveled gear, light gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, fifth",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "worm-large-light-gray",
+      "name": "Large worm gear, light gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, worm at left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "worm-small-gray",
+      "name": "Small worm gear, gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, worm at center",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "worm-tan",
+      "name": "Worm gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, worm at right",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "gear-rack-black",
+      "name": "Black gear rack",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Exact standard identity, teeth and dimensions need verification.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Second gear row, far right",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "belt-wheel",
+      "name": "Light wheel with black ring/belt",
+      "category": "wheels",
+      "identity_status": "inferred",
+      "notes": "Check whether ring is a separate belt or tire before splitting this assembly.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, far left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "linear-actuator",
+      "name": "Small linear actuator assembly",
+      "category": "actuators",
+      "identity_status": "inferred",
+      "notes": "Travel, dimensions and end attachments not verified.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, second",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "differential-housing",
+      "name": "Differential housing with bottom gear",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Do not assume internal gears are included.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 2,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, third",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "suspension-arm",
+      "name": "Long suspension arm",
+      "category": "connectors",
+      "identity_status": "inferred",
+      "notes": "Hole spacing and geometry need measurement.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, center",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "shock-yellow",
+      "name": "Yellow spring shock absorber",
+      "category": "suspension",
+      "identity_status": "identified",
+      "notes": "Length and spring rate unknown.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 2,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, yellow shock",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "shock-red",
+      "name": "Red spring shock absorber",
+      "category": "suspension",
+      "identity_status": "identified",
+      "notes": "Length and spring rate unknown.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 2,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, red shock",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "round-connector-large",
+      "name": "Large round-ended connector",
+      "category": "connectors",
+      "identity_status": "inferred",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, right, larger connector",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "round-connector-small",
+      "name": "Small round-ended connector",
+      "category": "connectors",
+      "identity_status": "inferred",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Third row, right, smaller connector",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "bush-full",
+      "name": "Full axle bush",
+      "category": "bushes",
+      "identity_status": "inferred",
+      "notes": "Full/half bush identification inferred; measure thickness.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Right edge, upper bush marked x10",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "bush-half",
+      "name": "Half axle bush",
+      "category": "bushes",
+      "identity_status": "inferred",
+      "notes": "Full/half bush identification inferred; measure thickness.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Right edge, lower bush marked x10",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "connector-straight-three",
+      "name": "Straight three-hole connector",
+      "category": "connectors",
+      "identity_status": "identified",
+      "notes": "Hole type and spacing need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, far left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "connector-angled-three",
+      "name": "Angled three-hole connector",
+      "category": "connectors",
+      "identity_status": "identified",
+      "notes": "Exact angle unknown.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, second",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "connector-short-two",
+      "name": "Short two-hole connector",
+      "category": "connectors",
+      "identity_status": "identified",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, third",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "chain-link-small",
+      "name": "Small black chain link",
+      "category": "tracks",
+      "identity_status": "identified",
+      "notes": "Distinct from both track-link types.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 100,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, smallest black link",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "track-link-narrow",
+      "name": "Narrow black track link",
+      "category": "tracks",
+      "identity_status": "identified",
+      "notes": "Check mating wheel compatibility.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, middle black link",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "track-link-wide",
+      "name": "Wide black track link",
+      "category": "tracks",
+      "identity_status": "identified",
+      "notes": "Check dimensions and wheel engagement physically.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, rightmost wide black link",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "knob-gear-tan",
+      "name": "Four-lobed knob gear, tan",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, tan knob gear",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "knob-gear-gray",
+      "name": "Four-lobed knob gear, gray",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, gray knob gear",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "connector-three-way",
+      "name": "Three-way connector assembly",
+      "category": "connectors",
+      "identity_status": "inferred",
+      "notes": "Treat as one pictured assembly; do not double-count its subparts.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fourth row, far right",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "track-wheel-large",
+      "name": "Large black track wheel",
+      "category": "wheels",
+      "identity_status": "identified",
+      "notes": "Standard-equivalent dimensions and wide-link compatibility not physically checked.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, large black wheel",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "track-wheel-small",
+      "name": "Small black track wheel",
+      "category": "wheels",
+      "identity_status": "identified",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, small black wheel",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "connector-h",
+      "name": "H-shaped connector",
+      "category": "connectors",
+      "identity_status": "identified",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, far right",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "frame-5x7",
+      "name": "Rectangular frame (candidate 5 x 7)",
+      "category": "frames",
+      "identity_status": "inferred",
+      "notes": "Count holes and measure geometry before assuming 5 x 7.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 2,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Bottom row, far left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "road-wheel-tire",
+      "name": "Road wheel with tire assembly",
+      "category": "wheels",
+      "identity_status": "identified",
+      "notes": "One assembly each; rim and tire not separately counted.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 4,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Bottom row, large tire",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "clear-block",
+      "name": "Clear rectangular block",
+      "category": "structure",
+      "identity_status": "identified",
+      "notes": "Dimensions and Technic connections not established.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 2,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Bottom row, transparent block",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "universal-joint",
+      "name": "Universal joint assembly",
+      "category": "connectors",
+      "identity_status": "inferred",
+      "notes": "",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 10,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Bottom row, white joint",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "spare-axle-assortment",
+      "name": "Mixed-length axle assortment",
+      "category": "axles",
+      "identity_status": "identified",
+      "notes": "30 total across all pictured lengths, not 30 per length. Measure and split later.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 30,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Bottom right, 1 SET/30PCS",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "pin-red",
+      "name": "Pin/axle connector, red",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Color is a visual identifier; length, axle ends and friction type require physical inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, pin 1",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "pin-blue",
+      "name": "Pin/axle connector, blue",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Color is a visual identifier; length, axle ends and friction type require physical inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, pin 2",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "pin-black",
+      "name": "Pin/axle connector, black",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Color is a visual identifier; length, axle ends and friction type require physical inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, pin 3",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "pin-light-gray",
+      "name": "Pin/axle connector, light-gray",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Color is a visual identifier; length, axle ends and friction type require physical inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, pin 4",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "pin-tan",
+      "name": "Pin/axle connector, tan",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Color is a visual identifier; length, axle ends and friction type require physical inspection.",
+      "lots": [
+        {
+          "import_id": "initial-spare-kit",
+          "quantity": 50,
+          "quantity_basis": "printed",
+          "source_id": "spare-kit-photo",
+          "location": "Fifth row, pin 5",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-xl-looking",
+      "name": "Large cylindrical motor (XL-looking)",
+      "category": "motors",
+      "identity_status": "inferred",
+      "notes": "Type inferred from appearance; attached lead is included in motor assembly.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Upper left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-l-looking",
+      "name": "Medium rectangular motor (L-looking)",
+      "category": "motors",
+      "identity_status": "inferred",
+      "notes": "Type inferred from appearance; attached lead is included.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Center above receiver",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-m-looking",
+      "name": "Slim motor (M-looking)",
+      "category": "motors",
+      "identity_status": "inferred",
+      "notes": "Type inferred from appearance; attached lead is included.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Left middle",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-compact",
+      "name": "Compact cylindrical motor, unidentified type",
+      "category": "motors",
+      "identity_status": "inferred",
+      "notes": "Do not merge with other motors without identifying its body and output.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Center-right below receiver",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "black-control-unit",
+      "name": "Black rectangular motor/control unit",
+      "category": "electronics",
+      "identity_status": "inferred",
+      "notes": "Function and exact type unresolved; do not assume this is a second receiver or a working servo.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Top center",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "receiver-looking",
+      "name": "White unit with black dome (receiver-looking)",
+      "category": "electronics",
+      "identity_status": "inferred",
+      "notes": "Channel count, radio/IR behavior and independent motor control not verified.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Center-left below L-looking motor",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "battery-compact",
+      "name": "Compact studded battery box",
+      "category": "power",
+      "identity_status": "inferred",
+      "notes": "Battery type and electrical output unknown.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Top right",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "battery-large",
+      "name": "Large battery box with mounting ears",
+      "category": "power",
+      "identity_status": "inferred",
+      "notes": "Battery type and mounting geometry need inspection.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Right middle",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "remote-dial",
+      "name": "Dial remote controller assembly",
+      "category": "electronics",
+      "identity_status": "inferred",
+      "notes": "Front and open battery compartment illustrate one controller, not two units. Confirm independent two-motor control.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower left",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "electrical-switch",
+      "name": "Small dark-gray electrical switch/unit",
+      "category": "electronics",
+      "identity_status": "inferred",
+      "notes": "Function uncertain.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower center, above loose cables",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "extension-lead",
+      "name": "Loose extension lead",
+      "category": "cables",
+      "identity_status": "inferred",
+      "notes": "Separate from permanently attached motor leads.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower center, upper loop",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "led-pair",
+      "name": "Wired pair of lights",
+      "category": "lights",
+      "identity_status": "inferred",
+      "notes": "Counted as one wired pair, not two independently wired modules.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower center, bottom lead with two light ends",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-shock-yellow",
+      "name": "Yellow shock absorber",
+      "category": "suspension",
+      "identity_status": "inferred",
+      "notes": "Length and compatibility with spare-kit shocks unverified; kept separate.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 2,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, two yellow shocks",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-wheel-small",
+      "name": "Small black wheel/pulley",
+      "category": "wheels",
+      "identity_status": "inferred",
+      "notes": "Diameter and mounting unknown.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 4,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, vertical black wheel column",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-gear-yellow-small",
+      "name": "Small yellow gear",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Tooth counts unverified.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 2,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, two small yellow gears",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-gear-yellow-large",
+      "name": "Large yellow gear",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Tooth count unverified.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": 1,
+          "quantity_basis": "visual_estimate",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, large yellow gear",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-gear-tan",
+      "name": "Small tan gear assortment",
+      "category": "gears",
+      "identity_status": "inferred",
+      "notes": "Visible group retained with unknown count; tooth counts and exact grouping unclear.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": null,
+          "quantity_basis": "unknown",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, tan gears",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-pin-red",
+      "name": "Short red connector assortment",
+      "category": "pins",
+      "identity_status": "inferred",
+      "notes": "Exact number, type and length not established.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": null,
+          "quantity_basis": "unknown",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, red connectors",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "motor-axle-assortment",
+      "name": "Gray/black mixed-length axle assortment",
+      "category": "axles",
+      "identity_status": "inferred",
+      "notes": "Neither per-length quantities nor exact lengths established.",
+      "lots": [
+        {
+          "import_id": "initial-motor-kit",
+          "quantity": null,
+          "quantity_basis": "unknown",
+          "source_id": "motor-kit-photo",
+          "location": "Lower right, gray and black axles",
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "id": "initial-spare-kit",
+      "manifest_hash": "981fc341bfd94e7d6947b1653e28a12ded5d22af0915ee35fce261a7a0aa1eae",
+      "copies": 1,
+      "created_at": "2026-11-11T07:47:29.687Z",
+      "source_ids": [
+        "spare-kit-photo"
+      ],
+      "notes": "User confirmed one complete kit. Printed product-image quantities are recorded stock, not a physical count.",
+      "changes": [
+        {
+          "part_id": "large-ring-gear-black",
+          "quantity": 4
+        },
+        {
+          "part_id": "large-ring-gear-light-gray",
+          "quantity": 4
+        },
+        {
+          "part_id": "large-ring-gear-dark-gray",
+          "quantity": 4
+        },
+        {
+          "part_id": "large-ring-gear-tan",
+          "quantity": 4
+        },
+        {
+          "part_id": "upper-gear-light-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "upper-gear-dark-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "upper-gear-tan",
+          "quantity": 10
+        },
+        {
+          "part_id": "upper-gear-light-gray-round",
+          "quantity": 10
+        },
+        {
+          "part_id": "flat-bevel-light-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "flat-bevel-tan",
+          "quantity": 10
+        },
+        {
+          "part_id": "small-bevel-tan",
+          "quantity": 4
+        },
+        {
+          "part_id": "small-bevel-dark-gray",
+          "quantity": 4
+        },
+        {
+          "part_id": "lower-gear-light-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "lower-gear-dark-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "lower-gear-tan",
+          "quantity": 10
+        },
+        {
+          "part_id": "small-dark-gear",
+          "quantity": 10
+        },
+        {
+          "part_id": "double-gear-light-gray",
+          "quantity": 4
+        },
+        {
+          "part_id": "worm-large-light-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "worm-small-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "worm-tan",
+          "quantity": 10
+        },
+        {
+          "part_id": "gear-rack-black",
+          "quantity": 4
+        },
+        {
+          "part_id": "belt-wheel",
+          "quantity": 4
+        },
+        {
+          "part_id": "linear-actuator",
+          "quantity": 4
+        },
+        {
+          "part_id": "differential-housing",
+          "quantity": 2
+        },
+        {
+          "part_id": "suspension-arm",
+          "quantity": 4
+        },
+        {
+          "part_id": "shock-yellow",
+          "quantity": 2
+        },
+        {
+          "part_id": "shock-red",
+          "quantity": 2
+        },
+        {
+          "part_id": "round-connector-large",
+          "quantity": 4
+        },
+        {
+          "part_id": "round-connector-small",
+          "quantity": 4
+        },
+        {
+          "part_id": "bush-full",
+          "quantity": 10
+        },
+        {
+          "part_id": "bush-half",
+          "quantity": 10
+        },
+        {
+          "part_id": "connector-straight-three",
+          "quantity": 10
+        },
+        {
+          "part_id": "connector-angled-three",
+          "quantity": 10
+        },
+        {
+          "part_id": "connector-short-two",
+          "quantity": 10
+        },
+        {
+          "part_id": "chain-link-small",
+          "quantity": 100
+        },
+        {
+          "part_id": "track-link-narrow",
+          "quantity": 50
+        },
+        {
+          "part_id": "track-link-wide",
+          "quantity": 50
+        },
+        {
+          "part_id": "knob-gear-tan",
+          "quantity": 10
+        },
+        {
+          "part_id": "knob-gear-gray",
+          "quantity": 10
+        },
+        {
+          "part_id": "connector-three-way",
+          "quantity": 4
+        },
+        {
+          "part_id": "track-wheel-large",
+          "quantity": 4
+        },
+        {
+          "part_id": "track-wheel-small",
+          "quantity": 10
+        },
+        {
+          "part_id": "connector-h",
+          "quantity": 4
+        },
+        {
+          "part_id": "frame-5x7",
+          "quantity": 2
+        },
+        {
+          "part_id": "road-wheel-tire",
+          "quantity": 4
+        },
+        {
+          "part_id": "clear-block",
+          "quantity": 2
+        },
+        {
+          "part_id": "universal-joint",
+          "quantity": 10
+        },
+        {
+          "part_id": "spare-axle-assortment",
+          "quantity": 30
+        },
+        {
+          "part_id": "pin-red",
+          "quantity": 50
+        },
+        {
+          "part_id": "pin-blue",
+          "quantity": 50
+        },
+        {
+          "part_id": "pin-black",
+          "quantity": 50
+        },
+        {
+          "part_id": "pin-light-gray",
+          "quantity": 50
+        },
+        {
+          "part_id": "pin-tan",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "initial-motor-kit",
+      "manifest_hash": "74a8dd350a2183f463189257843ba6f515976f42b6b56f9c1e3f3238312fe70f",
+      "copies": 1,
+      "created_at": "2026-11-11T07:47:29.689Z",
+      "source_ids": [
+        "motor-kit-photo"
+      ],
+      "notes": "User confirmed one complete kit. No printed counts; individual-object counts are visual estimates. Repeated product views and attached cables are not extra stock.",
+      "changes": [
+        {
+          "part_id": "motor-xl-looking",
+          "quantity": 1
+        },
+        {
+          "part_id": "motor-l-looking",
+          "quantity": 1
+        },
+        {
+          "part_id": "motor-m-looking",
+          "quantity": 1
+        },
+        {
+          "part_id": "motor-compact",
+          "quantity": 1
+        },
+        {
+          "part_id": "black-control-unit",
+          "quantity": 1
+        },
+        {
+          "part_id": "receiver-looking",
+          "quantity": 1
+        },
+        {
+          "part_id": "battery-compact",
+          "quantity": 1
+        },
+        {
+          "part_id": "battery-large",
+          "quantity": 1
+        },
+        {
+          "part_id": "remote-dial",
+          "quantity": 1
+        },
+        {
+          "part_id": "electrical-switch",
+          "quantity": 1
+        },
+        {
+          "part_id": "extension-lead",
+          "quantity": 1
+        },
+        {
+          "part_id": "led-pair",
+          "quantity": 1
+        },
+        {
+          "part_id": "motor-shock-yellow",
+          "quantity": 2
+        },
+        {
+          "part_id": "motor-wheel-small",
+          "quantity": 4
+        },
+        {
+          "part_id": "motor-gear-yellow-small",
+          "quantity": 2
+        },
+        {
+          "part_id": "motor-gear-yellow-large",
+          "quantity": 1
+        },
+        {
+          "part_id": "motor-gear-tan",
+          "quantity": null
+        },
+        {
+          "part_id": "motor-pin-red",
+          "quantity": null
+        },
+        {
+          "part_id": "motor-axle-assortment",
+          "quantity": null
+        }
+      ]
+    }
+  ]
+}

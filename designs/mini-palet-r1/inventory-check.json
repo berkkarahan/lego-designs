@@ -1,0 +1,318 @@
+{
+  "design": "Mini Palet R1",
+  "status": "needs_verification",
+  "rows": [
+    {
+      "part_id": "frame-5x7",
+      "codes": [
+        "F1"
+      ],
+      "description": "5 x 7 frame",
+      "required": 2,
+      "match_status": "tentative",
+      "notes": [
+        "Count frame holes and confirm dimensions."
+      ],
+      "candidates": [],
+      "owned_known": 2,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "track-link-wide",
+      "codes": [
+        "T1"
+      ],
+      "description": "Wide track link",
+      "required": 36,
+      "match_status": "exact",
+      "notes": [
+        "18 per side; physical wheel engagement and track tension untested."
+      ],
+      "candidates": [],
+      "owned_known": 50,
+      "has_unknown_quantity": false,
+      "missing": 0,
+      "status": "covered_by_recorded_stock"
+    },
+    {
+      "part_id": "track-wheel-large",
+      "codes": [
+        "W1"
+      ],
+      "description": "Large black track wheel",
+      "required": 4,
+      "match_status": "exact",
+      "notes": [
+        "Two per side; actual geometry and link engagement need physical checks."
+      ],
+      "candidates": [],
+      "owned_known": 4,
+      "has_unknown_quantity": false,
+      "missing": 0,
+      "status": "covered_by_recorded_stock"
+    },
+    {
+      "part_id": "small-dark-gear",
+      "codes": [
+        "G8"
+      ],
+      "description": "8-tooth spur gear",
+      "required": 8,
+      "match_status": "tentative",
+      "notes": [
+        "Count teeth; source photo does not establish exact geometry."
+      ],
+      "candidates": [],
+      "owned_known": 10,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "upper-gear-light-gray-round",
+      "codes": [
+        "G24"
+      ],
+      "description": "24-tooth spur gear",
+      "required": 6,
+      "match_status": "tentative",
+      "notes": [
+        "Candidate only; count teeth and verify style."
+      ],
+      "candidates": [],
+      "owned_known": 10,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "bush-full",
+      "codes": [
+        "B1"
+      ],
+      "description": "Full axle bush, 1L",
+      "required": 10,
+      "match_status": "tentative",
+      "notes": [
+        "Confirm thickness and type."
+      ],
+      "candidates": [],
+      "owned_known": 10,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "bush-half",
+      "codes": [
+        "B05"
+      ],
+      "description": "Half axle bush, 0.5L",
+      "required": 10,
+      "match_status": "tentative",
+      "notes": [
+        "Confirm thickness and type."
+      ],
+      "candidates": [],
+      "owned_known": 10,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": null,
+      "codes": [
+        "A3"
+      ],
+      "description": "3L axle, 24 mm",
+      "required": 2,
+      "match_status": "unresolved",
+      "notes": [
+        "Both kits contain mixed axles; no per-length stock count."
+      ],
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ],
+      "owned_known": null,
+      "has_unknown_quantity": true,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": null,
+      "codes": [
+        "A8"
+      ],
+      "description": "8L axle, 64 mm",
+      "required": 4,
+      "match_status": "unresolved",
+      "notes": [
+        "Both kits contain mixed axles; no per-length stock count."
+      ],
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ],
+      "owned_known": null,
+      "has_unknown_quantity": true,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": null,
+      "codes": [
+        "A12"
+      ],
+      "description": "12L axle, 96 mm",
+      "required": 2,
+      "match_status": "unresolved",
+      "notes": [
+        "Both kits contain mixed axles; no per-length stock count."
+      ],
+      "candidates": [
+        "spare-axle-assortment",
+        "motor-axle-assortment"
+      ],
+      "owned_known": null,
+      "has_unknown_quantity": true,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": null,
+      "codes": [
+        "P2"
+      ],
+      "description": "2L friction pin",
+      "required": 6,
+      "match_status": "unresolved",
+      "notes": [
+        "Colored pin groups do not establish length/friction type."
+      ],
+      "candidates": [
+        "pin-red",
+        "pin-blue",
+        "pin-black",
+        "pin-light-gray",
+        "pin-tan",
+        "motor-pin-red"
+      ],
+      "owned_known": null,
+      "has_unknown_quantity": true,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": null,
+      "codes": [
+        "P3"
+      ],
+      "description": "3L friction pin",
+      "required": 2,
+      "match_status": "unresolved",
+      "notes": [
+        "Measure pins and identify friction type."
+      ],
+      "candidates": [
+        "pin-red",
+        "pin-blue",
+        "pin-black",
+        "pin-light-gray",
+        "pin-tan"
+      ],
+      "owned_known": null,
+      "has_unknown_quantity": true,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "motor-m-looking",
+      "codes": [
+        "M"
+      ],
+      "description": "M-type motor",
+      "required": 1,
+      "match_status": "tentative",
+      "notes": [
+        "Visual estimate; motor output and mounting geometry untested."
+      ],
+      "candidates": [],
+      "owned_known": 1,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "motor-l-looking",
+      "codes": [
+        "L"
+      ],
+      "description": "L-type motor",
+      "required": 1,
+      "match_status": "tentative",
+      "notes": [
+        "Visual estimate; different motor speeds/torques may affect straight-line travel."
+      ],
+      "candidates": [],
+      "owned_known": 1,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "battery-large",
+      "codes": [
+        "BAT"
+      ],
+      "description": "Large battery box",
+      "required": 1,
+      "match_status": "tentative",
+      "notes": [
+        "Battery type, electrical output and mounting ears need inspection."
+      ],
+      "candidates": [],
+      "owned_known": 1,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "receiver-looking",
+      "codes": [
+        "RX"
+      ],
+      "description": "Independent two-output receiver",
+      "required": 1,
+      "match_status": "tentative",
+      "notes": [
+        "Test independent forward/reverse control of both motors."
+      ],
+      "candidates": [],
+      "owned_known": 1,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    },
+    {
+      "part_id": "remote-dial",
+      "codes": [
+        "RC"
+      ],
+      "description": "Remote controller",
+      "required": 1,
+      "match_status": "tentative",
+      "notes": [
+        "Confirm remote/receiver pairing and independent motor control."
+      ],
+      "candidates": [],
+      "owned_known": 1,
+      "has_unknown_quantity": false,
+      "missing": null,
+      "status": "needs_verification"
+    }
+  ],
+  "stock_reserved": false
+}

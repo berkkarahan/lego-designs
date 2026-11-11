@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "name": "Template example - replace before use",
+  "status": "template",
+  "notes": "Illustrates format only; not a real model.",
+  "requirements": [
+    {
+      "code": "F1",
+      "description": "Example frame requirement",
+      "quantity": 1,
+      "part_id": "frame-5x7",
+      "match_status": "tentative",
+      "notes": "Replace with actual model requirements."
+    }
+  ]
+}

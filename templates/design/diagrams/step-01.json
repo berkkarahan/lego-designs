@@ -1,0 +1,33 @@
+{
+  "width": 480,
+  "height": 200,
+  "primitives": [
+    {
+      "type": "rect",
+      "x": 140,
+      "y": 50,
+      "width": 180,
+      "height": 90,
+      "fill": "#e4f1f2",
+      "stroke": "#167c80"
+    },
+    {
+      "type": "text",
+      "x": 165,
+      "y": 100,
+      "text": "F1 - example only",
+      "size": 12,
+      "fill": "#183447"
+    },
+    {
+      "type": "line",
+      "x1": 80,
+      "y1": 95,
+      "x2": 130,
+      "y2": 95,
+      "stroke": "#167c80",
+      "width": 2,
+      "arrow": true
+    }
+  ]
+}

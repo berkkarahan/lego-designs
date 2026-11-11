@@ -1,0 +1,4 @@
+-r requirements-guide.txt
+pypdf>=5,<8
+pymupdf>=1.26,<2
+PyYAML>=6,<7
